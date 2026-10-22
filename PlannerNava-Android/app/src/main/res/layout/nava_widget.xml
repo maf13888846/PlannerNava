@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="14dp" android:background="#F0EDFF">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="✦ نوا | برنامه امروز"
+        android:textColor="#4B3DA7" android:textStyle="bold" android:textSize="16sp" />
+    <TextView android:id="@+id/widget_summary" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" android:text="در حال بارگذاری…" android:textColor="#625A83" android:textSize="12sp" />
+    <TextView android:id="@+id/widget_tasks" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:layout_marginTop="8dp" android:text="برای دیدن برنامه لمس کن" android:textColor="#292442" android:textSize="13sp" android:maxLines="3" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="برای باز کردن پلنر لمس کن  ↗"
+        android:textColor="#7566D9" android:textSize="11sp" android:gravity="end" />
+</LinearLayout>
