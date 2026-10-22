@@ -5,4 +5,4 @@
     android:initialLayout="@layout/nava_widget"
     android:resizeMode="horizontal|vertical"
     android:widgetCategory="home_screen"
-    android:description="نمایش خلاصه کارهای امروز نوا" />
+    android:description="@string/nava_widget_descriptionا" />
